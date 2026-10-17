@@ -7,5 +7,35 @@ print( "=" * 20)
 num1 = float(input("Informe o primeiro número: "))
 num2 = float(input("Informe o primeiro número: "))
 
+tipo_operacao = print("Qual operação você deseja fazer? ")
+
+resultado_adicao = num1 + num2
+resultado_subtracao = num1 - num2
+resultado_multiplicacao = num1 * num2
+resultado_divisao = num1 // num2
+resultado_resto_divisao = num1 / num2
+resultado_porcentagem = num1 % num2
+
+if tipo_operacao == "+":
+    print(f"O resultado da operação é: {resultado_adicao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+elif tipo_operacao == "-":
+    print(f"O resultado da operação é: {resultado_subtracao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+elif tipo_operacao == "*":
+    print(f"O resultado da operação é: {resultado_muiltiplicao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+elif tipo_operacao == "//":
+    print(f"O resultado da operação é: {resultado_subtracao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+elif tipo_operacao == "/":
+    print(f"O resultado da operação é: {resultado_subtracao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+elif tipo_operacao == "-":
+    print(f"O resultado da operação é: {resultado_subtracao}")
+    decisao = print("Voce deseja comtimuar usando a calculadora?(S/N) ").upper()
+
+
+
 
 
