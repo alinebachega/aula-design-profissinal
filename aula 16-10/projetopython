@@ -1,0 +1,11 @@
+#AULA DE DESIGN PROFISSIONAL 16/10 
+#GITHUB EM GRUPO
+print( "=" * 20)
+print("Bem-vindo a calculadora!")
+print( "=" * 20)
+
+num1 = float(input("Informe o primeiro número: "))
+num2 = float(input("Informe o primeiro número: "))
+
+
+
